@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+#skills{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    gap: 5px;
+}
+.skillPoints{
+    /* margin: 20px 0;
+    /* background-color: black; */
+    /* padding: 10px; */ 
+ 
+}
+.skillBarImage{
+    
+}
+
+    .skillTitle {
+        display: block; /* Display as block to control width */
+        font-size: 2.5em; /* Larger font size */
+        font-weight: bold; /* Bold font weight */
+        text-align: center; /* Center-align text */
+        color: #333; /* Dark color for text */
+        margin-bottom: 20px; /* Space below the title */
+        text-transform: uppercase; /* Uppercase text */
+        letter-spacing: 1px; /* Add letter spacing */
+        border-bottom: 2px solid #4CAF50; /* Green underline */
+        padding-bottom: 10px; /* Space below the underline */
+    }
+    
+.skillDesc{
+    font-weight: 200;
+    font-size: 0.90rem;
+    max-width: 50rem;
+    padding: 0 2rem;
+}
+.skillBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 90%;
+    text-align: left;
+
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .skillTitle{
+        margin-top: 50%;
+    }
+
+}
+@media (max-width: 383px) {
+    .skillTitle{
+        margin-top: 90%;
+    }
+ 
+
+}
+@media (max-width: 720px) {
+ 
+
+}
+
+@media (max-width: 650px) {
+    .skills{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        /* padding-left: 40vw; */
+        margin-left: 30vw;
+        
+      
+    }
+
+
+}
+.skillPoints {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(218, 168, 228); /* Dark background */
+}
+
+.skillBar {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right, #2c3e50, #4ca1af); /* Gradient background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* More prominent shadow */
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.skillBar:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.skillBarImg {
+    width: 100px; /* Set a fixed width for the image */
+    height: 100px; /* Set a fixed height for the image */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the area */
+    margin-right: 20px; /* Add space between the image and text */
+    border: 3px solid #fff; /* White border around the image */
+}
+
+.skillBarText {
+    flex: 1; /* Allow text to take up remaining space */
+    color: #fff; /* White text color */
+}
+
+.skillBarText h2 {
+    font-family: 'Roboto', sans-serif; /* Modern font for heading */
+    margin-bottom: 10px; /* Space below the heading */
+    font-size: 1.8em; /* Larger font size */
+    letter-spacing: 1.2px; /* Add letter spacing */
+}
+
+.skillBarText p {
+    font-family: 'Open Sans', sans-serif; /* Clean font for paragraph */
+    line-height: 1.6; /* Improve readability */
+    font-size: 1em; /* Standard font size */
+    margin-top: 0; /* Remove default margin */
+}
+
+@media (max-width: 768px) {
+    .skillBar {
+        flex-direction: column; /* Stack elements vertically on small screens */
+        text-align: center; /* Center text */
+        max-width: 100%; /* Allow full width */
+    }
+
+    .skillBarImg {
+        margin: 0 0 15px 0; /* Adjust margin for vertical layout */
+    }
+}
